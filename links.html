@@ -12,7 +12,7 @@
             If you have any questions, contact one of the co-presidents at 600021637@fjuhsd.org (Kaneiya) and/or 600018686@fjuhsd.org (Thaddaeus)</p>
         </div>
         <h2 id="line" style="text-align: center; margin-bottom: -80;">—</h2>
-        <div style="align-items: center; display: flex; padding: 50px; justify-content: center; flex-direction: column;">
+        <div style="align-items: center; display: flex; padding: 50px; justify-content: center;" class="button-container">
             <a class="button" href="https://forms.gle/XFSG6HTdrDy3ZMSLA">SIGN-UP FORM</a>
             <a class="button" href="https://discord.gg/FJhZWHgvNg">JOIN OUR DISCORD</a>
             <a class="button" href="https://www.instagram.com/shhscode/">VIEW OUR INSTAGRAM</a>
@@ -43,6 +43,8 @@
         font-size: 36;
         text-align: center;
         padding: 20;
+        margin-left: 7px;
+        margin-right: 7px;
         margin-top: 32px;
         border-style: solid;
         border-color: white;
@@ -71,6 +73,14 @@
         margin: 0;
         padding: 0;
         margin-top: -35px;
+    }
+    .button-container {
+         flex-direction: row;
+    }
+    @media only screen and (max-width: 860px) {
+        .button-container {
+            flex-direction: column;
+        }
     }
     @font-face {
         font-family: 'icons';
